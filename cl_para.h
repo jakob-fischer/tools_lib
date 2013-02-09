@@ -54,7 +54,8 @@ public:
     
     
     /*
-     * 
+     * Tries to convert the value of parameter `str` to double and
+     * returns the result.
      */
     
     double get_param_d(const std::string& str) {
@@ -68,7 +69,7 @@ public:
     
     
     /*
-     * 
+     * Returns the value of parameter `str` as string.
      */
     
     std::string get_param(const std::string& str) {
@@ -77,7 +78,8 @@ public:
     
 
     /*
-     * 
+     * Tries to convert the value of parameter `str` as integer and
+     * returns the result.
      */
     
     int get_param_i(const std::string& str) {
