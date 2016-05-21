@@ -14,7 +14,10 @@
 
 
 /* 
- * Class for handling C++ console parameters.
+ * Class for handling C++ console parameters. Parameters can either have the
+ * form of an individual flag like "foo" or "bar". Or of an assignment like
+ * "a=22" or "name=paul". Assignments can not include spaces. The following 
+ * is not an assignment: "a = 12"!
  */
 
 class cl_para {
