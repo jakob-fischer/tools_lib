@@ -1,5 +1,6 @@
 /* author: jakob fischer (jakob@automorph.info)
  * date: 9th February 2013
+ * homepage: https://github.com/jakob-fischer/tools_lib
  * description: 
  * Contains class for handling C++ console parameters.
  */
